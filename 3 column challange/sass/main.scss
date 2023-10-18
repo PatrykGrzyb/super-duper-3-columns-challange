@@ -1,0 +1,9 @@
+@import 'base/reset', 'base/fonts', 'base/colors', 'base/typography', 'base/base';
+
+@import 'layout/footer';
+
+@import 'components/cards/buttons', 'components/cards/cards';
+
+@import 'pages/home';
+
+@import 'media_queries/media_queries.scss';

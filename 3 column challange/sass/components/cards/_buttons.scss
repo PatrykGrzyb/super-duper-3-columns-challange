@@ -1,0 +1,38 @@
+.cards {
+	&__properties {
+		.properties--btns {
+            display: inline-block;
+			padding: 1.4rem 3.4rem;
+            border: solid 2px transparent;
+			border-radius: 3rem;
+			font-weight: 700;
+		}
+		.first--btn {
+			color: var(--first-card-color);
+		}
+		.second--btn {
+			color: var(--second-card-color);
+		}
+		.third--btn {
+			color: var(--third-card-color);
+		}
+		.first--btn:hover,
+		.second--btn:hover,
+		.third--btn:hover {
+            border: solid 2px var(--elements-color);
+            color: var(--elements-color);
+			cursor: pointer;
+		}
+
+		.first--btn:hover {
+			background-color: var(--first-card-color);
+
+		}
+		.second--btn:hover {
+			background-color: var(--second-card-color);
+		}
+		.third--btn:hover {
+			background-color: var(--third-card-color);
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    &__properties {
+        width: 100%;
+        padding: 4rem;
+        line-height: 2.8rem;
+        .properties--heading {
+            text-transform: uppercase;
+            margin-bottom: 3.2rem;
+            font-size: 3.6rem;
+        }
+        .properties--img {
+            margin-bottom: 4rem;
+        }
+        .properties--paragraph {
+            height: 12rem;
+            width: 24rem;
+            margin-bottom: 4.5rem
+        }
+        
+    }
+    
+    &__card-first {
+        background-color: var(--first-card-color);
+    }
+    &__card-second {
+        background-color: var(--second-card-color);
+    }
+    &__card-third {
+        background-color: var(--third-card-color);
+    }
+}

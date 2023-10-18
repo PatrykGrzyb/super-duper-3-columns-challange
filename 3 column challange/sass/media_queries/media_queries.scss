@@ -1,0 +1,37 @@
+@media (min-width: 1024px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+        width: 100vw;
+        
+	}
+	.cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin: 0 18%;
+		&__properties {
+            width: 100%;
+            height: 100%;
+            padding: 5rem 6rem;
+		}
+        .properties--paragraph {
+            height: 13rem;
+            width: 21rem;
+            margin-bottom: 10rem
+
+        }
+	}
+}
+
+// @media (min-width: 1200px) {
+//     .cards {
+//         max-width: 50vw;
+//         min-height: 50vh;
+//     }
+// }
+
